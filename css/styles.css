@@ -622,5 +622,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .gallery-item-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+        letter-spacing: 0.02em;
+    
+        color: var(--dark-color);
     margin-bottom: 8px;
 }
