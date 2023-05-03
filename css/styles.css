@@ -232,9 +232,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: var(--green-color);
 }
 
-.footer-icon {
+.footer-link svg {
     width: 24px;
     height: 24px;
+
+}
+
+.footer-icon {
     fill: #f4f4fd;
 }
 
@@ -357,7 +361,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-bottom: 8px;
 }
 
-.feature-icon {
+.features-list svg {
     width: 64px;
     height: 64px;
 }
@@ -422,7 +426,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-card {
     display: block;
-    padding: 32px 16px 0px 16px;
 }
 
 .team {
@@ -501,6 +504,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .customer-title {
+    line-height: 1.1em;
     display: block;
     margin-bottom: 72px;
 }
@@ -533,9 +537,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-color: #404bbf;
 }
 
-.customer-icon {
+.customer-link svg {
     width: 104px;
     height: 56px;
+}
+
+.customer-icon {
     fill: currentColor;
 }
 
