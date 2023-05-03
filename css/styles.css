@@ -493,12 +493,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* Customers */
 
 .customer-section {
-    display: block;
     padding: 120px 0;
+}
+
+.customer-section .container {
+    display: block;
 }
 
 .customer-title {
     display: block;
+    margin-bottom: 72px;
 }
 
 .customer-list {
